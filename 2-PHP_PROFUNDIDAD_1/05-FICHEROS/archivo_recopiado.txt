@@ -1,0 +1,8 @@
+Hola soy un archivo de texto
+mas 
+lineas
+a leer
+del 
+archivo
+
+jajaTexto escrito desde PHPTexto escrito desde PHP**Texto escrito desde PHP****Texto escrito desde PHP****Texto escrito desde PHP****Texto escrito desde PHP****Texto escrito desde PHP****Texto escrito desde PHP****Texto escrito desde PHP****Texto escrito desde PHP****Texto escrito desde PHP****Texto escrito desde PHP****Texto escrito desde PHP**

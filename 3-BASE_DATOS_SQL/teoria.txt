@@ -1,0 +1,50 @@
+BASE DE DATOS: ES UN CONJUNTO DE DATOS PERTENENCIENTES A UN MISMO CONTEXTO Y ALMACENADOS SISTEMATICAMENTE PARA SU POSTERIOR USO
+SISTEMAS GESTORES DE BASES DE DATOS(SGBD): QUE PERMITEN ALMACENAR Y POSTERIORMENTE ACCEDER A LOS DATOS DE FORMA RÁPIDA Y ESTRUCTURADA, PUEDEN SER RELACIONALES Y 
+NO RELACIONALES.
+
+
+ELEMENTOS QUE TIENE UNA BASE DE DATOS: FORMADO POR TABLAS,COLUMNAS(CAMPO),FILAS(DONDE SE GUARDAN LOS REGISTROS)
+
+BBDD BLOG:
+
+TABLA USUARIOS: USUARIOS ES UNA ENTIDAD CADA FILA ES UN OBJETO DE ESA ENTIDAD, Y CADA COLUMNA REPRESENTA UN ATRIBUTO DE LA ENTIDAD
+
+ID   NOMBRE  APELLIDOS  EMAIL   CONTRASEÑA : FORMAN COLUMNAS
+1    AAAAAA  AAAAAAAAA  AAAAA   AAAAAAAAA  :FILAS
+2    AAAAAA  AAAAAAAAA  AAAAA   AAAAAAAAA  :FILAS
+3    AAAAAA  AAAAAAAAA  AAAAA   AAAAAAAAA  :FILAS
+4    AAAAAA  AAAAAAAAA  AAAAA   AAAAAAAAA  :FILAS
+5    AAAAAA  AAAAAAAAA  AAAAA   AAAAAAAAA  :FILAS
+
+Para aquellos que utilizan xampp y quieran abrir la consola como en la clase, les dejo un pequeño tutorial.
+
+Primero abrir XAMPP, clickear el boton "Shell"
+
+Luego deben entar a la carpeta donde esta alojado el ejecutable de mysql. Por defecto el archivo esta en esta direccion "C:\xampp\mysql\bin" (verifiquen)
+
+Ahora hay que abrir el archivo en la consola de xampp
+
+Como en la consola ya estamos en la ruta "C:\xampp" solo tenemos que ingresar a la carpeta "mysql\bin" de la siguiente manera " cd mysql\bin "
+
+Ahora ya deben estar dentro de aquella ruta.
+
+Para ingresar a su base de datos deben poner lo siguiente:
+
+mysql.exe -u (nombre del usuario) --password
+
+--password debe ingresarse unicamente si el usuario tiene una constraseña ( y debera ingresarse luego de darle a ENTER)
+
+Si quisieramos ingresar al usuario por defecto seria asi:
+
+mysql.exe -u root
+
+COMANDOS BASICOS DENTRO DE LA CONSOLA DE NUESTRO XAAMP O WEBSERVER ...ETC TERMINAR
+EL COMANDO CON ; OJO!!!!!
+1.  status; informacion sobre nuestra base de datos.
+2.  create database blog_master; Crear una base de datos
+3.  show databases; Muestra todas las bases de datos
+4.  use blog_master; Para entrar dentro de la base de datos
+5.  drop database blog_master; Elimina una BBDD
+6.  show tables; Muestra las tablas de un BBDD
+7.  drop table usuarios; Elimina una tabla
+8.  describe usuarios; Describe la tabla--Tambien sirve desc usuarios;
